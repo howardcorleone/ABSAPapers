@@ -88,7 +88,7 @@ Combining two or more ABSA's subtasks in one framework to produce results is an 
 
 #### Aspect Sentiment Triplet Extraction
 - **Knowing What, How and Why: A Near Complete Solution for Aspect-Based Sentiment Analysis**. *Haiyun Peng, Lu Xu, Lidong Bing, Fei Huang, Wei Lu, Luo Si*. (AAAI 2020)[[paper]](https://arxiv.org/pdf/1911.01616.pdf) (ASTE task papers)
-- **Position-Aware Tagging for Aspect Sentiment Triplet Extraction**. *Position-Aware Tagging for Aspect Sentiment Triplet Extraction*. (EMNLP 2021）[[paper]](https://arxiv.org/abs/2010.02609)
+- **Position-Aware Tagging for Aspect Sentiment Triplet Extraction**. *Lu Xu, Hao Li, Wei Lu, Lidong Bing*. (EMNLP 2021）[[paper]](https://arxiv.org/abs/2010.02609)
 
 #### Aspect-Opinion Pair Extraction
 - **Target-oriented Opinion Words Extraction with Target-fused Neural Sequence Labeling**. *Zhifang Fan, Zhen Wu, Xin-Yu Dai, Shujian Huang, Jiajun Chen*. (NAACL 2019) [[paper]](https://www.aclweb.org/anthology/N19-1259/)[[data]](https://github.com/NJUNLP/TOWE) - ***TOWE***
