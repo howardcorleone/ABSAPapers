@@ -2,9 +2,11 @@
 Worth-reading papers and related awesome resources on aspect-based sentiment analysis (ABSA). This repository mainly focused on aspect-term sentiment classification (ATSC). ABSA task contains five fine-grained subtasks:
 - Aspect Term Sentiment Classification (ATSC)
 - Aspect Term Extraction (ATE)
+- Opniton Term Extraction (OTE)
+- Aspect-Opinion Pair Extraction (AOPE)
 - Aspect Category Sentiment Classification (ACSC)
 - Aspect Category Detection (ACD)
-- Opniton Term Extraction (OTE)
+- Aspect Sentiment Triplet Extraction (ASTE)
 
 Suggestions about adding papers, repositories and other resource are welcomed!
 
@@ -12,8 +14,9 @@ Suggestions about adding papers, repositories and other resource are welcomed!
 
 欢迎新增论文、代码仓库与其他资源等建议！
 
-> Update to ACL 2021, AAAI 2021, NAACL 2021. Prepare to add some paper notes. 
-> 正在更新至ACL 2021， AAAI 2021, NAACL 2021. 准备添加相关论文笔记。
+> Update to ACL 2021, AAAI 2021, NAACL 2021. Prepare to add some paper notes.    
+   
+> 正在更新至ACL 2021, AAAI 2021, NAACL 2021. 准备添加相关论文笔记.
 
 ## Paper
 - **Effective LSTMs for Target-Dependent Sentiment Classification**. *Duyu Tang, Bing Qin, Xiaocheng Feng, Ting Liu*. (COLING 2016) [[paper]](https://www.aclweb.org/anthology/C16-1311)[[code]](https://drive.google.com/drive/folders/17RF8MZs456ov9MDiUYZp0SCGL6LvBQl6) - ***TD-LSTM TC-LSTM***
@@ -84,7 +87,8 @@ Combining two or more ABSA's subtasks in one framework to produce results is an 
 - **Joint Aspect Extraction and Sentiment Analysis with Directional Graph Convolutional Networks**. *Guimin Chen, Yuanhe Tian, Yan Song*. (COLING 2020) [[paper]](https://www.aclweb.org/anthology/2020.coling-main.24/) - ***D-GCN***
 
 #### Aspect Sentiment Triplet Extraction
-- **Knowing What, How and Why: A Near Complete Solution for Aspect-Based Sentiment Analysis**. *Haiyun Peng, Lu Xu, Lidong Bing, Fei Huang, Wei Lu, Luo Si*. (AAAI 2020)[[paper]](https://arxiv.org/pdf/1911.01616.pdf)
+- **Knowing What, How and Why: A Near Complete Solution for Aspect-Based Sentiment Analysis**. *Haiyun Peng, Lu Xu, Lidong Bing, Fei Huang, Wei Lu, Luo Si*. (AAAI 2020)[[paper]](https://arxiv.org/pdf/1911.01616.pdf) (ASTE task papers)
+- **Position-Aware Tagging for Aspect Sentiment Triplet Extraction**. *Position-Aware Tagging for Aspect Sentiment Triplet Extraction*. (EMNLP 2021）[[paper]](https://arxiv.org/abs/2010.02609)
 
 #### Aspect-Opinion Pair Extraction
 - **Target-oriented Opinion Words Extraction with Target-fused Neural Sequence Labeling**. *Zhifang Fan, Zhen Wu, Xin-Yu Dai, Shujian Huang, Jiajun Chen*. (NAACL 2019) [[paper]](https://www.aclweb.org/anthology/N19-1259/)[[data]](https://github.com/NJUNLP/TOWE) - ***TOWE***
