@@ -1,4 +1,4 @@
-# ABSAPapers
+# ABSA Papers
 Worth-reading papers and related awesome resources on aspect-based sentiment analysis (ABSA). This repository mainly focused on aspect-term sentiment classification (ATSC). ABSA task contains five fine-grained subtasks:
 - Aspect Term Sentiment Classification (ATSC)
 - Aspect Term Extraction (ATE)
@@ -10,7 +10,7 @@ Worth-reading papers and related awesome resources on aspect-based sentiment ana
 
 Suggestions about adding papers, repositories and other resource are welcomed!
 
-值得一读的方面级情感分析论文与相关资源集合。这里主要关注方面词（aspect-term）的情感分类。具体来说，方面级情感分析包括方面词情感分类、方面词抽取、方面类目情感分类、方面类目抽取、观点词抽取五个子任务。
+值得一读的方面级情感分析论文与相关资源集合。这里主要关注方面词（aspect-term）的情感分类。具体来说，方面级情感分析包括方面词情感分类、方面词抽取、方面意见词组合抽取、方面类目情感分类、方面类目抽取、观点词抽取、观点意见情感三元抽取七个子任务。
 
 欢迎新增论文、代码仓库与其他资源等建议！
 
