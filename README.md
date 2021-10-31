@@ -12,9 +12,8 @@ Suggestions about adding papers, repositories and other resource are welcomed!
 
 欢迎新增论文、代码仓库与其他资源等建议！
 
-> Update to COLING 2020! We will add a score table of representative and latest ABSA models like [NLP-progress](http://nlpprogress.com/english/sentiment_analysis.html) in the near future, so stay tuned!
-
-> 新增COLING 2020论文！近期将参考[NLP-progress](http://nlpprogress.com/english/sentiment_analysis.html)的形式增加一个数据集分值表，敬请期待！
+> Update to ACL 2021, AAAI 2021, NAACL 2021. Prepare to add some paper notes. 
+> 正在更新至ACL 2021， AAAI 2021, NAACL 2021. 准备添加相关论文笔记。
 
 ## Paper
 - **Effective LSTMs for Target-Dependent Sentiment Classification**. *Duyu Tang, Bing Qin, Xiaocheng Feng, Ting Liu*. (COLING 2016) [[paper]](https://www.aclweb.org/anthology/C16-1311)[[code]](https://drive.google.com/drive/folders/17RF8MZs456ov9MDiUYZp0SCGL6LvBQl6) - ***TD-LSTM TC-LSTM***
@@ -64,7 +63,6 @@ Suggestions about adding papers, repositories and other resource are welcomed!
 - **Attention Transfer Network for Aspect-level Sentiment Classification**. *Fei Zhao, Zhen Wu, Xinyu Dai*. (COLING 2020) [[paper]](https://www.aclweb.org/anthology/2020.coling-main.70/)[[code]](https://github.com/1429904852/ATN) - ***ATN***
 - **Jointly Learning Aspect-Focused and Inter-Aspect Relations with Graph Convolutional Networks for Aspect Sentiment Analysis**. *Bin Liang, Rongdi Yin, Lin Gui, Jiachen Du, Ruifeng Xu*. [[paper]](https://www.aclweb.org/anthology/2020.coling-main.13/) - ***InterGCN***
 - **Syntax-Aware Graph Attention Network for Aspect-Level Sentiment Classification**. *Lianzhe Huang, Xin Sun, Sujian Li, Linhao Zhang, Houfeng Wang*. (COLING 2020) [[paper]](https://www.aclweb.org/anthology/2020.coling-main.69/) - ***SAGAT***
-- **Constituency Lattice Encoding for Aspect Term Extraction**. *Yunyi Yang, Kun Li, Xiaojun Quan, Weizhou Shen, Qinliang Su*. (COLING 2020) [[paper]](https://www.aclweb.org/anthology/2020.coling-main.73/)
 
 ### Multi-task Learning & End-to-End
 Combining two or more ABSA's subtasks in one framework to produce results is an intutively effective way for industrial application. There are three patterns of multi-task learning: pipeline, joint and end-to-end model. For pipeline pattern, the framework complete subtasks in more than one step, using the result of last step to guide the next step's output, which might lead to error propogation problem. Joint model processes the data with shared layers to extract universal semantic features for all subtasks. Then model outputs results of different tasks through task-specific layers. End-to-end model complete tasks like sequence labeling.
@@ -84,6 +82,9 @@ Combining two or more ABSA's subtasks in one framework to produce results is an 
 - **Label Correction Model for Aspect-based Sentiment Analysis**. *Qianlong Wang, Jiangtao Ren*. (COLING 2020) [[paper]](https://www.aclweb.org/anthology/2020.coling-main.71/)
 - **Aspect-Category based Sentiment Analysis with Hierarchical Graph Convolutional Network**. *Hongjie Cai, Yaofeng Tu, Xiangsheng Zhou, Jianfei Yu, Rui Xia*. (COLING 2020) [[paper]](https://www.aclweb.org/anthology/2020.coling-main.72/)
 - **Joint Aspect Extraction and Sentiment Analysis with Directional Graph Convolutional Networks**. *Guimin Chen, Yuanhe Tian, Yan Song*. (COLING 2020) [[paper]](https://www.aclweb.org/anthology/2020.coling-main.24/) - ***D-GCN***
+
+#### Aspect Sentiment Triplet Extraction
+- **Knowing What, How and Why: A Near Complete Solution for Aspect-Based Sentiment Analysis**. *Haiyun Peng, Lu Xu, Lidong Bing, Fei Huang, Wei Lu, Luo Si*. (AAAI 2020)[[paper]](https://arxiv.org/pdf/1911.01616.pdf)
 
 #### Aspect-Opinion Pair Extraction
 - **Target-oriented Opinion Words Extraction with Target-fused Neural Sequence Labeling**. *Zhifang Fan, Zhen Wu, Xin-Yu Dai, Shujian Huang, Jiajun Chen*. (NAACL 2019) [[paper]](https://www.aclweb.org/anthology/N19-1259/)[[data]](https://github.com/NJUNLP/TOWE) - ***TOWE***
